@@ -6,7 +6,7 @@
     <meta name="keywords" content="">
     <meta content="Themesdesign" name="author">
 
-    <link rel="shortcut icon" href="src/images/favicon.ico">
+    <link rel="shortcut icon" href="/b/public/src/images/favicon.png">
 
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="src/css/bootstrap.min.css" type="text/css" id="bootstrap-style">
@@ -25,28 +25,29 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="src/css/style.min.css" type="text/css">
 
+    <link rel="manifest" href="/b/public/manifest.json">
 
-    <link rel="manifest" href="/manifest.json">
+<!--     <link rel="manifest" href="/manifest.json"> -->
   <meta name="apple-mobile-web-app-capble" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="PWAGram">
-  <link rel="apple-touch-icon" href="/src/images/Icons/apple-icon-57x57.png" size="57x57">
+  <link rel="apple-touch-icon" href="/b/public/src/images/icons/apple-icon-57x57.png" size="57x57">
   
-  <link rel="apple-touch-icon" href="/src/images/Icons/apple-icon-60x60.png" size="60x60">
-  <link rel="apple-touch-icon" href="/src/images/Icons/apple-icon-72x72.png" size="72x72">
-  <link rel="apple-touch-icon" href="/src/images/Icons/apple-icon-76x76.png" size="76x76">
-  <link rel="apple-touch-icon" href="/src/images/Icons/apple-icon-114x114.png" size="114x114">
-  <link rel="apple-touch-icon" href="/src/images/Icons/apple-icon-120x120.png" size="120x120">
-  <link rel="apple-touch-icon" href="/src/images/Icons/apple-icon-144x144.png" size="144x144">
-  <link rel="apple-touch-icon" href="/src/images/Icons/apple-icon-152x152.png" size="152x152">
-  <link rel="apple-touch-icon" href="/src/images/Icons/apple-icon-180x180.png" size="180x180">
+  <link rel="apple-touch-icon" href="/b/public/src/images/icons/apple-icon-60x60.png" size="60x60">
+  <link rel="apple-touch-icon" href="/b/public/src/images/icons/apple-icon-72x72.png" size="72x72">
+  <link rel="apple-touch-icon" href="/b/public/src/images/icons/apple-icon-76x76.png" size="76x76">
+  <link rel="apple-touch-icon" href="/b/public/src/images/icons/apple-icon-114x114.png" size="114x114">
+  <link rel="apple-touch-icon" href="/b/public/src/images/icons/apple-icon-120x120.png" size="120x120">
+  <link rel="apple-touch-icon" href="/b/public/src/images/icons/apple-icon-144x144.png" size="144x144">
+  <link rel="apple-touch-icon" href="/b/public/src/images/icons/apple-icon-152x152.png" size="152x152">
+  <link rel="apple-touch-icon" href="/b/public/src/images/icons/apple-icon-180x180.png" size="180x180">
 
-  <meta name="msapplication-TileImage" content="/src/images/Icons/apple-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="/src/images/icons/apple-icon-144x144.png">
   <meta name="msapplication-TileColor" content="#fff">
   <meta name="theme-color" content="#3f51b5">
 
 
-<style></style><style></style></head>
+<style></style><style></style><style></style><style></style></head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="71">
 
@@ -60,11 +61,10 @@
     <!--Navbar Start-->
     <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
         <div class="container-fluid custom-container">
-            <a class="navbar-brand logo text-uppercase" href="index.html" id="logo-link">
+            <a class="navbar-brand logo text-uppercase" href="index.html">
                 <img src="src/images/logo-light.png" class="logo-light" alt="" height="34">
                 <img src="src/images/logo-dark.png" class="logo-dark" alt="" height="34">
             </a>
-            
 
             <button class="navbar-toggler me-3 order-2 ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
                 <i class="mdi mdi-menu"></i>
@@ -73,23 +73,23 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ms-auto navbar-center">
                     <li class="nav-item active">
-                        <a href="#home" class="nav-link active">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item dropdown dropdown-hover">
-                        <a href="#aboutme" class="nav-link ">About Us</a>
+                        <a href="#aboutme" class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item dropdown dropdown-hover">
-                        <a href="#service" class="nav-link ">Service</a>
+                        <a href="#service" class="nav-link">Service</a>
                     </li>
 
                     <li class="nav-item dropdown dropdown-hover">
-                        <a href="#work" class="nav-link ">Work</a>
+                        <a href="#work" class="nav-link">Work</a>
                     </li>
                     <li class="nav-item">
                         <a href="#pricing" class="nav-link">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#testi" class="nav-link">Testimonial</a>
+                        <a href="#testi" class="nav-link active">Testimonial</a>
                     </li>
                     <li class="nav-item">
                         <a href="#blog" class="nav-link">Blog</a>
@@ -172,13 +172,78 @@
         <div class="container position-relative">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="tns-outer" id="home-slider-ow"><div class="tns-controls" aria-label="Carousel Navigation" tabindex="0"><button type="button" data-controls="prev" tabindex="-1" aria-controls="home-slider">←</button><button type="button" data-controls="next" tabindex="-1" aria-controls="home-slider">→</button></div><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">2</span>  of 4</div><div id="home-slider-mw" class="tns-ovh"><div class="tns-inner" id="home-slider-iw"><div class="home-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="home-slider" style="transition-duration: 0s; transform: translate3d(-16.6667%, 0px, 0px);"><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                    <div class="tns-outer" id="home-slider-ow"><div class="tns-controls" aria-label="Carousel Navigation" tabindex="0"><button type="button" data-controls="prev" tabindex="-1" aria-controls="home-slider">←</button><button type="button" data-controls="next" tabindex="-1" aria-controls="home-slider">→</button></div><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">3</span>  of 4</div><div id="home-slider-mw" class="tns-ovh"><div class="tns-inner" id="home-slider-iw"><div class="tns-outer" id="home-slider-ow"><div class="tns-controls" aria-label="Carousel Navigation" tabindex="0"><button type="button" data-controls="prev" tabindex="-1" aria-controls="home-slider">←</button><button type="button" data-controls="next" tabindex="-1" aria-controls="home-slider">→</button></div><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">2</span>  of 6</div><div id="home-slider-mw" class="tns-ovh"><div class="tns-inner" id="home-slider-iw"><div class="home-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="home-slider" style="transform: translate3d(-12.5%, 0px, 0px);"><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="content-item">
+                                        <p class="text-warning fw-semibold mb-0">Hello! I AM</p>
+                                        <div class="home-title mb-0 fw-bold h1">
+                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Harold Anderson.&quot;,&quot;Freelance Designer.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Harold Ande</span></span>
+                                        </div>
+                                        <p class="mt-3 text-muted">Building simple and beautiful things for complex
+                                            interfaces is what I enjoy most about my work. I am also interested in
+                                            crafting beautiful minimal products and exploring new worlds.</p>
+
+                                        <div class="icon-item mt-4">
+                                            <div class="d-flex">
+                                                <a href="#">
+                                                    <div class="social-icon facebook avatar-sm">
+                                                        <i class="mdi mdi-facebook"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="social-icon instagram avatar-sm">
+                                                        <i class="mdi mdi-instagram"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="social-icon twitter avatar-sm">
+                                                        <i class="mdi mdi-twitter"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="social-icon linkedin avatar-sm">
+                                                        <i class="mdi mdi-linkedin"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="social-icon pinterest avatar-sm">
+                                                        <i class="mdi mdi-pinterest"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="home-link d-inline-block mt-5">
+                                            <div class="d-flex align-items-center">
+                                                <div class="btn-link ">
+                                                    <a href="#" class="text-dark h6">
+                                                        <div class="read-link btn-link-warning"><span>See my work
+                                                            </span></div>
+                                                    </a>
+                                                </div>
+                                                <div class="btn-link-icon">
+                                                    <img src="src/images/home/right-arrow.png" alt="" class="img-fluid ms-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="my-image">
+                                        <img src="src/images/home/home.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="item tns-item tns-slide-cloned tns-slide-active" id="home-slider-item0">
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
                                     <div class="content-item">
                                         <p class="text-blue fw-semibold mb-0">Hello! I AM</p>
                                         <h1 class="home-title mb-0 text-dark fw-bold">
-                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Ray Glam.&quot;,&quot;Web Enthusiast.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Grad</span></span>
+                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Ray Glam.&quot;,&quot;Web Enthusiast.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Graduate based in </span></span>
                                         </h1>
                                         <p class="mt-3 text-muted">Building simple and beautiful things for complex
                                             interfaces is what I enjoy most about my work. I am also interested in
@@ -235,13 +300,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item tns-item tns-slide-active" id="home-slider-item0">
+                        <div class="item tns-item" id="home-slider-item0" aria-hidden="true" tabindex="-1">
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
                                     <div class="content-item">
                                         <p class="text-warning fw-semibold mb-0">Hello! I AM</p>
                                         <div class="home-title mb-0 fw-bold h1">
-                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Harold Anderson.&quot;,&quot;Freelance Designer.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Freelance Designer.</span></span>
+                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Harold Anderson.&quot;,&quot;Freelance Designer.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Harold Ande</span></span>
                                         </div>
                                         <p class="mt-3 text-muted">Building simple and beautiful things for complex
                                             interfaces is what I enjoy most about my work. I am also interested in
@@ -303,13 +368,13 @@
                         </div>
                         <!-- slider item -->
 
-                        <div class="item tns-item" id="home-slider-item1" aria-hidden="true" tabindex="-1">
+                        <div class="item tns-item tns-slide-active" id="home-slider-item1" aria-hidden="true" tabindex="-1">
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
                                     <div class="content-item">
                                         <p class="text-primary fw-semibold mb-0">Hello! I AM</p>
                                         <div class="home-title mb-0 text-dark fw-bold h1">
-                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Marie Jons.&quot;,&quot;Devloper.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Graduate b</span></span>
+                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Marie Jons.&quot;,&quot;Devloper.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Mari</span></span>
                                         </div>
                                         <p class="mt-3 text-muted">Building simple and beautiful things for complex
                                             interfaces is what I enjoy most about my work. I am also interested in
@@ -374,7 +439,7 @@
                                     <div class="content-item">
                                         <p class="text-danger fw-semibold mb-0">Hello! I AM</p>
                                         <div class="home-title mb-0 text-dark fw-bold h1">
-                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Ray Glam.&quot;,&quot;Web Enthusiast.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Gra</span></span>
+                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Ray Glam.&quot;,&quot;Web Enthusiast.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Graduate based in NY</span></span>
                                         </div>
                                         <p class="mt-3 text-muted">Building simple and beautiful things for complex
                                             interfaces is what I enjoy most about my work. I am also interested in
@@ -440,7 +505,7 @@
                                     <div class="content-item">
                                         <p class="text-blue fw-semibold mb-0">Hello! I AM</p>
                                         <h1 class="home-title mb-0 text-dark fw-bold">
-                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Ray Glam.&quot;,&quot;Web Enthusiast.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">G</span></span>
+                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Ray Glam.&quot;,&quot;Web Enthusiast.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Graduate based in </span></span>
                                         </h1>
                                         <p class="mt-3 text-muted">Building simple and beautiful things for complex
                                             interfaces is what I enjoy most about my work. I am also interested in
@@ -498,13 +563,13 @@
                             </div>
                         </div>
                         <!-- slider item -->
-                    <div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                    <div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="home-slider-item5">
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
                                     <div class="content-item">
                                         <p class="text-warning fw-semibold mb-0">Hello! I AM</p>
                                         <div class="home-title mb-0 fw-bold h1">
-                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Harold Anderson.&quot;,&quot;Freelance Designer.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Freelance Designer</span></span>
+                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Harold Anderson.&quot;,&quot;Freelance Designer.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Harold Ander</span></span>
                                         </div>
                                         <p class="mt-3 text-muted">Building simple and beautiful things for complex
                                             interfaces is what I enjoy most about my work. I am also interested in
@@ -563,7 +628,69 @@
                                     </div>
                                 </div>
                             </div>
-                        </div></div></div></div></div>
+                        </div><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="content-item">
+                                        <p class="text-blue fw-semibold mb-0">Hello! I AM</p>
+                                        <h1 class="home-title mb-0 text-dark fw-bold">
+                                            <span class="typewrite " data-period="2000" data-type="[ &quot;Ray Glam.&quot;,&quot;Web Enthusiast.&quot;,&quot;Graduate based in NYC.&quot; ]"><span class="wrap">Graduate based i</span></span>
+                                        </h1>
+                                        <p class="mt-3 text-muted">Building simple and beautiful things for complex
+                                            interfaces is what I enjoy most about my work. I am also interested in
+                                            crafting beautiful minimal products and exploring new worlds.</p>
+
+                                        <div class="icon-item mt-4">
+                                            <div class="d-flex">
+                                                <a href="#">
+                                                    <div class="social-icon facebook avatar-sm">
+                                                        <i class="mdi mdi-facebook"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="social-icon instagram avatar-sm">
+                                                        <i class="mdi mdi-instagram"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="social-icon twitter avatar-sm">
+                                                        <i class="mdi mdi-twitter"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="social-icon linkedin avatar-sm">
+                                                        <i class="mdi mdi-linkedin"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="social-icon pinterest avatar-sm">
+                                                        <i class="mdi mdi-pinterest"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="home-link d-flex align-items-center mt-5">
+                                            <div class="btn-link">
+                                                <a href="#" class="text-dark h6">
+                                                    <div class="read-link btn-link-blue"><span>See my work </span></div>
+                                                </a>
+                                            </div>
+                                            <div class="btn-link-icon">
+                                                <img src="src/images/home/right-arrow.png" alt="" class="img-fluid ms-3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="my-image">
+                                        <img src="src/images/home/home-4.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div></div></div></div></div></div></div>
                 </div>
             </div>
         </div>
@@ -907,17 +1034,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="tns-outer" id="work-slider-ow"><div class="tns-controls" aria-label="Carousel Navigation" tabindex="0"><button type="button" data-controls="prev" tabindex="-1" aria-controls="work-slider">←</button><button type="button" data-controls="next" tabindex="-1" aria-controls="work-slider">→</button></div><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">9</span>  of 4</div><div id="work-slider-mw" class="tns-ovh"><div class="tns-inner" id="work-slider-iw"><div class="work-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="work-slider" style="transform: translate3d(-50%, 0px, 0px);"><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                            <div class="work-image">
-                                <a href="#">
-                                    <img src="src/images/work/img-3.png" alt="" class="img-fluid">
-                                    <div class="image-title mt-5 ms-5 text-white">
-                                        <h4 class="mb-0">App Design</h4>
-                                        <p class="text-white-50">Mobile App </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                    <div class="tns-outer" id="work-slider-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">9</span>  of 4</div><div id="work-slider-mw" class="tns-ovh"><div class="tns-inner" id="work-slider-iw"><div class="tns-outer" id="work-slider-ow"><div class="tns-controls" aria-label="Carousel Navigation" tabindex="0"><button type="button" data-controls="prev" tabindex="-1" aria-controls="work-slider">←</button><button type="button" data-controls="next" tabindex="-1" aria-controls="work-slider">→</button></div><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">18 to 20</span>  of 16</div><div id="work-slider-mw" class="tns-ovh"><div class="tns-inner" id="work-slider-iw"><div class="work-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="work-slider" style="transform: translate3d(-77.2727%, 0px, 0px);"><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
                             <div class="work-image">
                                 <a href="#">
                                     <img src="src/images/work/img-4.png" alt="" class="img-fluid">
@@ -947,7 +1064,7 @@
                                     </div>
                                 </a>
                             </div>
-                        </div><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                        </div><div class="item tns-item tns-slide-cloned" id="work-slider-item0" aria-hidden="true" tabindex="-1">
                             <div class="work-image">
                                 <a href="#">
                                     <img src="src/images/work/img-3.png" alt="" class="img-fluid">
@@ -957,7 +1074,47 @@
                                     </div>
                                 </a>
                             </div>
-                        </div><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                        </div><div class="item tns-item tns-slide-cloned" id="work-slider-item1" aria-hidden="true" tabindex="-1">
+                            <div class="work-image">
+                                <a href="#">
+                                    <img src="src/images/work/img-4.png" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5 text-white">
+                                        <h4 class="mb-0">Web Design</h4>
+                                        <p class="text-white-50">E-Commerce</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><div class="item tns-item tns-slide-cloned" id="work-slider-item2" aria-hidden="true" tabindex="-1">
+                            <div class="work-image position-relative">
+                                <a href="#">
+                                    <img src="src/images/work/img-1.png" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5">
+                                        <h4 class="mb-0">Web Design</h4>
+                                        <p>E-Commerce</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><div class="item tns-item tns-slide-cloned" id="work-slider-item3" aria-hidden="true" tabindex="-1">
+                            <div class="work-image">
+                                <a href="#">
+                                    <img src="src/images/work/img-2.png" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5">
+                                        <h4 class="mb-0">NFT Web Design</h4>
+                                        <p>NFT Maerketplace</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><div class="item tns-item tns-slide-cloned" id="work-slider-item4" aria-hidden="true" tabindex="-1">
+                            <div class="work-image">
+                                <a href="#">
+                                    <img src="src/images/work/img-3.png" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5 text-white">
+                                        <h4 class="mb-0">App Design</h4>
+                                        <p class="text-white-50">Mobile App </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><div class="item tns-item tns-slide-cloned" id="work-slider-item5" aria-hidden="true" tabindex="-1">
                             <div class="work-image">
                                 <a href="#">
                                     <img src="src/images/work/img-4.png" alt="" class="img-fluid">
@@ -994,7 +1151,7 @@
                         </div>
 
                         <!-- slider item -->
-                        <div class="item tns-item tns-slide-active" id="work-slider-item2">
+                        <div class="item tns-item" id="work-slider-item2" aria-hidden="true" tabindex="-1">
                             <div class="work-image">
                                 <a href="#">
                                     <img src="src/images/work/img-3.png" alt="" class="img-fluid">
@@ -1019,7 +1176,7 @@
                             </div>
                         </div>
 
-                    <div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                    <div class="item tns-item tns-slide-cloned" id="work-slider-item10" aria-hidden="true" tabindex="-1">
                             <div class="work-image position-relative">
                                 <a href="#">
                                     <img src="src/images/work/img-1.png" alt="" class="img-fluid">
@@ -1029,7 +1186,7 @@
                                     </div>
                                 </a>
                             </div>
-                        </div><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                        </div><div class="item tns-item tns-slide-cloned" id="work-slider-item11" aria-hidden="true" tabindex="-1">
                             <div class="work-image">
                                 <a href="#">
                                     <img src="src/images/work/img-2.png" alt="" class="img-fluid">
@@ -1039,7 +1196,47 @@
                                     </div>
                                 </a>
                             </div>
-                        </div><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                        </div><div class="item tns-item tns-slide-cloned" id="work-slider-item12" aria-hidden="true" tabindex="-1">
+                            <div class="work-image">
+                                <a href="#">
+                                    <img src="src/images/work/img-3.png" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5 text-white">
+                                        <h4 class="mb-0">App Design</h4>
+                                        <p class="text-white-50">Mobile App </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><div class="item tns-item tns-slide-cloned" id="work-slider-item13" aria-hidden="true" tabindex="-1">
+                            <div class="work-image">
+                                <a href="#">
+                                    <img src="src/images/work/img-4.png" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5 text-white">
+                                        <h4 class="mb-0">Web Design</h4>
+                                        <p class="text-white-50">E-Commerce</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><div class="item tns-item tns-slide-cloned tns-slide-active" id="work-slider-item14">
+                            <div class="work-image position-relative">
+                                <a href="#">
+                                    <img src="src/images/work/img-1.png" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5">
+                                        <h4 class="mb-0">Web Design</h4>
+                                        <p>E-Commerce</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><div class="item tns-item tns-slide-cloned tns-slide-active" id="work-slider-item15">
+                            <div class="work-image">
+                                <a href="#">
+                                    <img src="src/images/work/img-2.png" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5">
+                                        <h4 class="mb-0">NFT Web Design</h4>
+                                        <p>NFT Maerketplace</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><div class="item tns-item tns-slide-cloned tns-slide-active">
                             <div class="work-image">
                                 <a href="#">
                                     <img src="src/images/work/img-3.png" alt="" class="img-fluid">
@@ -1069,17 +1266,7 @@
                                     </div>
                                 </a>
                             </div>
-                        </div><div class="item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                            <div class="work-image">
-                                <a href="#">
-                                    <img src="src/images/work/img-2.png" alt="" class="img-fluid">
-                                    <div class="image-title mt-5 ms-5">
-                                        <h4 class="mb-0">NFT Web Design</h4>
-                                        <p>NFT Maerketplace</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div></div></div></div></div>
+                        </div></div></div></div></div></div></div></div>
 
                 </div>
             </div>
@@ -1087,7 +1274,6 @@
         <!-- end container -->
     </section>
     <!-- end my-work -->
-
 
     <!-- start pricing -->
     <section class="section pricing" id="pricing">
@@ -1432,15 +1618,6 @@
             <!-- end row -->
         </div>
         <!-- end container -->
-
-        <div class="shape-2">
-            <img src="src/images/testi/shape-2.png" alt="" class="img-fluid">
-        </div>
-
-        <div class="shape-3 ">
-            <img src="src/images/testi/shape-3.png" alt="" class="img-fluid">
-        </div>
-
     </section>
     <!-- end pricing -->
 
@@ -1465,8 +1642,40 @@
             </div>
 
             <!-- Slider main container -->
-            <div class="swiper-container py-5 swiper-container-horizontal swiper-container-android">
-                <div class="swiper-wrapper pt-3" style="transform: translate3d(-362px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide border-radius position-relative swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="4" style="width: 352px; margin-right: 10px;">
+            <div class="swiper-container py-5 swiper-container-horizontal">
+                <div class="swiper-wrapper pt-3" style="transform: translate3d(-764px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide border-radius position-relative swiper-slide-duplicate" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="2">
+                        <div class="user-image">
+                            <img src="src/images/team/img3.png" alt="" class="avatar-md rounded-circle">
+                        </div>
+                        <div class="text-center mt-4">
+                            <p class="f-16 text-muted fs-15">" We use a customized application specifically designed a
+                                testing gnose to keep away for people. "
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="user-info text-center">
+                            <div class="user-info">
+                                <h5 class="text-black mb-0">Janice C. Campbe</h5>
+                                <p class="mb-0 text-muted fs-14">Embedded analytics</p>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide border-radius position-relative swiper-slide-duplicate" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="3">
+                        <div class="user-image">
+                            <img src="src/images/team/img4.png" alt="" class="avatar-md rounded-circle">
+                        </div>
+                        <div class="text-center mt-4">
+                            <p class="f-16 text-muted fs-15">" We use a customized application specifically designed a
+                                testing gnose to keep away for people. "
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="user-info text-center">
+                            <div class="user-info">
+                                <h5 class="text-black mb-0">Janice C. Campbe</h5>
+                                <p class="mb-0 text-muted fs-14">Embedded analytics</p>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide border-radius position-relative swiper-slide-duplicate swiper-slide-prev" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="4">
                         <div class="user-image">
                             <img src="src/images/team/img5.png" alt="" class="avatar-md rounded-circle">
                         </div>
@@ -1484,7 +1693,7 @@
                         </div>
                     </div>
                     <!-- start slider -->
-                    <div class="swiper-slide border-radius position-relative swiper-slide-active" data-swiper-slide-index="0" style="width: 352px; margin-right: 10px;">
+                    <div class="swiper-slide border-radius position-relative swiper-slide-active" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="0">
                         <div class="user-image">
                             <img src="src/images/team/img1.png" alt="" class="avatar-md rounded-circle">
                         </div>
@@ -1504,7 +1713,7 @@
                     <!-- end slider -->
 
                     <!-- start slider -->
-                    <div class="swiper-slide border-radius position-relative swiper-slide-next" data-swiper-slide-index="1" style="width: 352px; margin-right: 10px;">
+                    <div class="swiper-slide border-radius position-relative swiper-slide-next" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="1">
                         <div class="user-image">
                             <img src="src/images/team/img2.png" alt="" class="avatar-md rounded-circle">
                         </div>
@@ -1524,7 +1733,7 @@
                     <!-- end slider -->
 
                     <!-- start slider -->
-                    <div class="swiper-slide border-radius position-relative" data-swiper-slide-index="2" style="width: 352px; margin-right: 10px;">
+                    <div class="swiper-slide border-radius position-relative" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="2">
                         <div class="user-image">
                             <img src="src/images/team/img3.png" alt="" class="avatar-md rounded-circle">
                         </div>
@@ -1544,7 +1753,7 @@
                     <!-- end slider -->
 
                     <!-- start slider -->
-                    <div class="swiper-slide border-radius position-relative" data-swiper-slide-index="3" style="width: 352px; margin-right: 10px;">
+                    <div class="swiper-slide border-radius position-relative" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="3">
                         <div class="user-image">
                             <img src="src/images/team/img4.png" alt="" class="avatar-md rounded-circle">
                         </div>
@@ -1564,7 +1773,7 @@
                     <!-- end slider -->
 
                     <!-- start slider -->
-                    <div class="swiper-slide border-radius position-relative swiper-slide-duplicate-prev" data-swiper-slide-index="4" style="width: 352px; margin-right: 10px;">
+                    <div class="swiper-slide border-radius position-relative swiper-slide-duplicate-prev" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="4">
                         <div class="user-image">
                             <img src="src/images/team/img5.png" alt="" class="avatar-md rounded-circle">
                         </div>
@@ -1582,9 +1791,41 @@
                         </div>
                     </div>
                     <!-- end slider -->
-                <div class="swiper-slide border-radius position-relative swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 352px; margin-right: 10px;">
+                <div class="swiper-slide border-radius position-relative swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="0">
                         <div class="user-image">
                             <img src="src/images/team/img1.png" alt="" class="avatar-md rounded-circle">
+                        </div>
+                        <div class="text-center mt-4">
+                            <p class="f-16 text-muted fs-15">" We use a customized application specifically designed a
+                                testing gnose to keep away for people. "
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="user-info text-center">
+                            <div class="user-info">
+                                <h5 class="text-black mb-0">Janice C. Campbe</h5>
+                                <p class="mb-0 text-muted fs-14">Embedded analytics</p>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide border-radius position-relative swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="1">
+                        <div class="user-image">
+                            <img src="src/images/team/img2.png" alt="" class="avatar-md rounded-circle">
+                        </div>
+                        <div class="text-center mt-4">
+                            <p class="f-16 text-muted fs-15">" We use a customized application specifically designed a
+                                testing gnose to keep away for people. "
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="user-info text-center">
+                            <div class="user-info">
+                                <h5 class="text-black mb-0">Janice C. Campbe</h5>
+                                <p class="mb-0 text-muted fs-14">Embedded analytics</p>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide border-radius position-relative swiper-slide-duplicate" style="width: 352px; margin-right: 30px;" data-swiper-slide-index="2">
+                        <div class="user-image">
+                            <img src="src/images/team/img3.png" alt="" class="avatar-md rounded-circle">
                         </div>
                         <div class="text-center mt-4">
                             <p class="f-16 text-muted fs-15">" We use a customized application specifically designed a
@@ -1603,14 +1844,6 @@
                 <!-- navigation buttons -->
                 <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
             </div>
-        </div>
-
-        <div class="shape-2">
-            <img src="src/images/testi/shape-2.png" alt="" class="img-fluid">
-        </div>
-
-        <div class="shape-3">
-            <img src="src/images/testi/shape-3.png" alt="" class="img-fluid">
         </div>
         <!-- end container -->
     </section>
@@ -1810,14 +2043,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="shape-2">
-                <img src="src/images/testi/shape-2.png" alt="" class="img-fluid">
-            </div>
-
-            <div class="shape-3 ">
-                <img src="src/images/testi/shape-3.png" alt="" class="img-fluid">
-            </div>
         </div>
         <!-- end container -->
     </section>
@@ -1921,7 +2146,7 @@
         <!-- end container -->
     </section>
 
-<button id="install-button" style="display:none;">Install App</button>
+    <button id="install-button" style="display: block;">Install App</button>
 
 
     <section class="bottom-footer py-4">
@@ -1929,7 +2154,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <p class="mb-0 text-center text-muted">©
-                        <script>document.write(new Date().getFullYear())</script>2025 Harold. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themesdesign.in/" target="_blank" class="text-muted">Themesdesign.</a>
+                        <script>document.write(new Date().getFullYear())</script>20252025 Harold. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themesdesign.in/" target="_blank" class="text-muted">Themesdesign.</a>
                     </p>
                 </div>
             </div>
@@ -1939,26 +2164,27 @@
 
 
     <!--Bootstrap Js-->
-    <script src="/src/js/bootstrap.bundle.min.js"></script>
+    <script src="src/js/bootstrap.bundle.min.js"></script>
 
     <!-- Slider Js -->
-    <script src="/src/js/tiny-slider.js"></script>
-    <script src="/src/js/swiper.min.js"></script>
+    <script src="src/js/tiny-slider.js"></script>
+    <script src="src/js/swiper.min.js"></script>
 
     <!-- conter -->
-    <script src="/src/js/counter.init.js"></script>
+    <script src="src/js/counter.init.js"></script>
 
     <!-- App Js -->
     <!-- <script src="src/js/app.js"></script>
 
     <script src="src/js/feed.js"></script> -->
 
-    <script src="/src/js/app.js"></script><style type="text/css">.typewrite > .wrap { border-right: 0.08em solid #ffffff}</style>
-    <script src="/src/src/js/feed.js"></script>
+    <script src="src/js/app.js"></script><style type="text/css">.typewrite > .wrap { border-right: 0.08em solid #ffffff}</style><style type="text/css">.typewrite > .wrap { border-right: 0.08em solid #ffffff}</style>
+    <script src="src/js/feed.js"></script>
 
 
 
 
 
 
- --&gt;</body><!-- Mirrored from themesdesign.in/harold/layout/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Dec 2024 15:56:25 GMT --></html>
+
+</body><!-- Mirrored from themesdesign.in/harold/layout/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Dec 2024 15:56:25 GMT --></html>
